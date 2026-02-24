@@ -4,6 +4,7 @@
 Goal: Establish the foundational development environment and implement basic educational content processing (PDF text extraction).
 
 Overview :
+
 This week focused on setting up the initial workflow in Google Colab. The primary objective was to ensure we can successfully ingest structured input materials (PDFs) and extract raw text from them, which will serve as the foundational data for our AI content generation agent in the upcoming weeks.
 
 ### Actions Completed
@@ -62,7 +63,4 @@ This week focused on setting up the initial workflow in Google Colab. The primar
 ```
   
 
-### Week 2 Plan
-
-<img width="863" height="246" alt="Screenshot 2026-02-24 232529" src="https://github.com/user-attachments/assets/45bfe201-8671-4746-b562-05dd72667852" />
 
