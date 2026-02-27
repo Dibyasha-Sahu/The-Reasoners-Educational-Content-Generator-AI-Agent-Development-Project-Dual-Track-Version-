@@ -63,4 +63,10 @@ This week focused on setting up the initial workflow in Google Colab. The primar
 ```
   
 
+### 🎥 System Demonstration
 
+
+https://github.com/user-attachments/assets/395ec355-8700-4027-9a85-d57658a0f5f6
+
+> **Demo Overview:** Implementation of the core ingestion pipeline, showcasing seamless PDF upload and real-time text extraction in the Google Colab environment.
+---
