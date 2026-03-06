@@ -16,8 +16,18 @@ Build the core logic that transforms uploaded study documents into interactive q
 
 ### 🧩 Text Processing & Question Generation  
 - Implemented a pipeline that cleans and structures raw text.  
+
+  <img width="1341" height="731" alt="Screenshot 2026-03-06 230038" src="https://github.com/user-attachments/assets/6effe32c-16a4-4364-a49b-9a8e9949fb95" />
+  
 - Generated multiple‑choice and short‑answer questions.  
-- Added **difficulty levels** (easy, medium, hard) to diversify practice.  
+- Added **difficulty levels** (easy, medium, hard) to diversify practice.
+  
+  <img width="1325" height="684" alt="Screenshot 2026-03-06 230058" src="https://github.com/user-attachments/assets/ce194d8c-6cfa-4c50-8848-546d6e03f5c7" />
+
+  <img width="1402" height="799" alt="Screenshot 2026-03-06 230114" src="https://github.com/user-attachments/assets/53f79aaf-bb3b-4803-ba1e-8bb887b9d326" />
+
+
+
 
 ## Outcome  
 By the end of Week 2, the system can:  
