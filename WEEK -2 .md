@@ -10,9 +10,15 @@ Build the core logic that transforms uploaded study documents into interactive q
 - System now ingests study materials directly and prepares them for AI processing.  
 
 ### 🤖 Document-to-Quiz Chatbot  
-- Connected extracted text to an LLM (tested with GPT‑3.5 / local MPT‑7B).  
+- Connected extracted text to an LLM (tested with GPT‑3.5 / local MPT‑7B via Groq API).  
+  
+  <img width="1412" height="802" alt="Screenshot 2026-03-06 230558" src="https://github.com/user-attachments/assets/644faa08-6f50-4864-a89b-9bda33e0276f" />
+
 - Designed prompts to generate **intelligent quiz questions** from educational content.  
-- Built chatbot logic to deliver questions interactively to the user.  
+- Built chatbot logic to deliver questions interactively to the user.
+
+  <img width="1388" height="753" alt="Screenshot 2026-03-06 230616" src="https://github.com/user-attachments/assets/b10057c2-c8b5-4518-8fd2-07dccb25bc49" />
+
 
 ### 🧩 Text Processing & Question Generation  
 - Implemented a pipeline that cleans and structures raw text.  
