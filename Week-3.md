@@ -91,13 +91,19 @@ The system uses **Groq LLaMA 3.1 Instant** model to generate quizzes.
 
 📷 Screenshot: *Groq API connection*
 
+<img width="1081" height="347" alt="Screenshot 2026-03-11 104514" src="https://github.com/user-attachments/assets/f2a0749f-9ca8-4f2a-9dcb-bd1f49cf80da" />
+
 ---
+
 
 ## 3 Extract Text from PDF
 
 The uploaded PDF is processed using **PyPDF2** and the text is extracted from each page.
 
 📷 Screenshot: *PDF upload and extracted text*
+
+<img width="605" height="484" alt="Screenshot 2026-03-11 105039" src="https://github.com/user-attachments/assets/84d89946-f636-4576-813f-ca9be7c0f5c5" />
+
 
 ---
 
@@ -109,8 +115,11 @@ Configuration:
 
 - chunk_size = 1000
 - chunk_overlap = 200
+  
+![chunks](https://github.com/user-attachments/assets/9f8de3c8-728a-49cd-af49-ad48b7e77dce)
 
-📷 Screenshot: *Chunk creation output*
+
+
 
 ---
 
@@ -123,15 +132,14 @@ They are stored inside **ChromaDB**.
 
 📷 Screenshot: *Vector database creation*
 
+![vector](https://github.com/user-attachments/assets/bf117627-cf87-4a00-a71a-30f0c679238e)
+
+
 ---
 
 ## 6 Context Retrieval
 
 The system searches the vector database for the most relevant chunk based on a query.
-
-Example query:
-
-📷 Screenshot: *Retrieved context*
 
 ---
 
@@ -140,6 +148,9 @@ Example query:
 The retrieved context is passed to the LLM which generates **multiple-choice questions**.
 
 📷 Screenshot: *Generated quiz output*
+
+![output](https://github.com/user-attachments/assets/4ba692d5-5dcd-46fc-8c41-73edb4aa7f9d)
+
 
 ---
 
